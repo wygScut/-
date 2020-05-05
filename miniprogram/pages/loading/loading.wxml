@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container" >
+<view>
+<text>什么是抑郁症？</text>
+
+<text>抑郁症离我们有多远？</text>
+
+<text>身边的人得了抑郁症怎么办？</text>
+
+</view>
+<image  bindtap="tapToIndex" src="./点击.png"></image>
+</view>
+

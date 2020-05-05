@@ -1,0 +1,51 @@
+/**index.wxss**/
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+.container>view>text:first-child{
+  font-size: larger;
+}
+.container>view{
+  height: 30vh;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-direction:column;
+  animation:test 5s 1;
+}
+.container image{
+  width: 12vw;
+  height: 12vw;
+  animation:img 3s 1;
+}
+@keyframes img{
+  0%{
+  width: 6vw;
+  height: 6vw;
+  }
+  75%{
+    width: 14vw;
+    height: 14vw;
+  }
+  100%{
+    width: 12vw;
+    height: 12vw;
+  }
+}
+@keyframes test {
+  /* from表示动画的开始位置 也可以使用 0% */
+  from{
+    height: 25vh;
+  
+  
+  } 
+
+  /* to动画的结束位置 也可以使用100%*/
+  to{
+    height: 30vh;
+  }
+}
