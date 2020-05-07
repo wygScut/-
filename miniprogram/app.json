@@ -1,9 +1,9 @@
 {
   "pages": [
-    
+    "pages/index/index",
+    "pages/music/music",
     "pages/loading/loading",
-    "pages/index/index"
-   
+    "pages/science/science"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
