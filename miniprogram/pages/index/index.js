@@ -15,5 +15,10 @@ Page({
     wx.navigateTo({
       url: '../science/science'
     })
+  },
+  ToMovie:function(){
+    wx.navigateTo({
+      url: '../movie/movie',
+    })
   }
 })

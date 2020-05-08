@@ -1,0 +1,34 @@
+<!--miniprogram/pages/movie/movie.wxml-->
+<view>
+<text bindtap="call">
+这个世界虽然不完美
+但我们仍可以治愈自己
+全国24小时免费心理危机咨询热线:
+800-810-1117
+</text>
+</view>
+
+
+<view>
+<video style="width:100%" id="myVideo" src="{{movieSrc}}"></video>
+
+<button bindtap="change">1</button>
+
+<button bindtap="change" data-set>2</button>
+
+<button >3</button>
+
+<button >4</button>
+</view>
+<!--
+北京热线 010-82951332
+上海热线 021-51719995
+南京热线 025-83712977
+武汉热线 027-85844666
+成都热线 028-87577510
+深圳热线 0755-25629459
+杭州热线 0571-85029595
+广州热线 020-81899120
+重庆热线 023-65372255
+青岛热线 0532-85659516
+-->
