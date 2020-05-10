@@ -7,6 +7,7 @@
 </swiper>
 
 
+<view class="mainPage">
 <view class="airticle text-lg">
 1）制定细节的、明确的目标</view>
 <view class="airticle text-df text-gray">
@@ -52,6 +53,6 @@
 <view class="airticle text-df text-gray">
 研究说，一个人如果倾向于对事件产生大的情绪反应，那么TA就更容易遭受抑郁症状的困扰。这亦是硬币正反面。人敏感，就容易受到情绪的困扰；而不敏感，又可能丧失创造力和想像能力。所谓人在轻躁狂状态下，特别适合艺术创作，因为那时人跳跃、丰富，有想像力。抑郁也一样。抑郁带来坏处，它亦有它的好处。最大化那些好的部分，学着和那些坏的部分握手言和——当然很难，但值得尝试。
 </view>
-
+</view>
 </scroll-view>
 

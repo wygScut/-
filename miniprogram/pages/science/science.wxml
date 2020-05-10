@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <!--头部区域-->
 <view class="tab">
-<view class="tab-item {{tab==0?'active':''}}" bindtap="changeTabItem" data-item="0">抑郁症什么症状？</view>
+<view class="tab-item {{tab==0?'active':''}}" bindtap="changeTabItem" data-item="0">抑郁症症状？</view>
 <view class="tab-item {{tab==1?'active':''}}" bindtap="changeTabItem" data-item="1">哪些话不适合说</view>
 <view class="tab-item {{tab==2?'active':''}}" bindtap="changeTabItem" data-item="2">调节抑郁情绪？</view>
 </view>

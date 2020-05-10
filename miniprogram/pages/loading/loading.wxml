@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container" >
 <view>
-<text>什么是抑郁症？</text>
+<text>你的心理健康吗？</text>
 
 <text>抑郁症离我们有多远？</text>
 
@@ -9,5 +9,9 @@
 
 </view>
 <image  bindtap="tapToIndex" src="./点击.png"></image>
+
+
+
+<text>点击进入心晴</text>
 </view>
 

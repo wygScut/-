@@ -25,6 +25,7 @@
 
 </view>
 
+<view class="mainPage">
 <view class="airticle text-df">
 这是一首描述抑郁症的诗，它详细描绘了抑郁症的特点——抑郁症并不是肢体的崩坏，而是生气的丧失。
 </view>
@@ -79,4 +80,6 @@
 <view class="airticle text-df">善于求助，是自强的表现！
 </view>
 <image class="wb" src="./img/1.jpg"></image>
+
+</view>
 </scroll-view>

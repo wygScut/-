@@ -15,17 +15,17 @@ Page({
       id:"2",
       corverImg:"",
       src:"cloud://xinqing-wnqo5.7869-xinqing-wnqo5-1302060285/movie/动画短片《名为抑郁症的黑狗》世界卫生组织科普.mp4",
-      title:'什么是抑郁症？3分钟动画告诉你.mp4'
+      title:'《名为抑郁症的黑狗》.mp4'
     },{
       id:"3",
       corverImg:"",
       src:"cloud://xinqing-wnqo5.7869-xinqing-wnqo5-1302060285/movie/【微电影】《它》大学抑郁症患者的内心斗争.mp4",
-      title:'什么是抑郁症？3分钟动画告诉你.flv'
+      title:'【微电影】《它》.mp4'
     },{
       id:"4",
       corverImg:"",
       src:"cloud://xinqing-wnqo5.7869-xinqing-wnqo5-1302060285/movie/【动画短片】抑郁与自杀中的心理斗争！_动画学术趴.mp4",
-      title:'什么是抑郁症？3分钟动画告诉你.mp4'
+      title:'抑郁与自杀中的心理斗争.mp4'
     },]
   },
 
@@ -35,11 +35,25 @@ Page({
   onLoad: function (options) {
     
   },
-call:function () {
-  wx.makePhoneCall({
-    phoneNumber: '8008101117',
-  })
-},
+  changeList:function (e) {
+    console.log("aaaa");
+    if(e.currentTarget.id=="item1"){
+      this.data.movieSrc=this.data.playlist[0].src;
+    }
+    else if(e.currentTarget.id=="item2"){
+
+      this.data.movieSrc=this.data.playlist[1].src;
+    }
+    
+    else if(e.currentTarget.id=="item3"){
+
+      this.data.movieSrc=this.data.playlist[2].src;
+    }
+    else if(e.currentTarget.id=="item4"){
+
+      this.data.movieSrc=this.data.playlist[3].src;
+    }
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

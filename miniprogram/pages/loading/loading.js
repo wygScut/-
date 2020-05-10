@@ -8,7 +8,7 @@ Page({
   },  
   tapToIndex: function() {
     wx.navigateTo({
-      url: '../index/index'
+      url: '../main/main'
     })
   },
   //事件处理函数

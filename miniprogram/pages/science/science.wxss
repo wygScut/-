@@ -1,25 +1,27 @@
 /**index.wxss**/
+page{
+  background-color: #f1f1f1;
+}
 .text-center {
 	text-align: center;
 }
 
 .padding {
-	padding: 20rpx;
+	padding: 30rpx;
 }
 .poem{
   padding: 10rpx;
   font-size: 10pt;
-  color: #aaaaaa;
+  color: #888;
 }
 
 .text-df {
-	font-size: 36rpx;
 }
 .text-lg{
-  font-size: 40rpx;
+  font-size: 44rpx;
 }
 .text-gray{
-  color: #aaaaaa;
+  color: #888;
 }
 .text-orange{
   color: #f37b1d;
@@ -49,11 +51,18 @@ page{
 }
 .tab-item{
   flex:1;
-  font-size: 28rpx;
+  font-size: 32rpx;
   line-height: 72rpx;
   text-align: center;
-  border-bottom: 6rpx solid white;
+  border-bottom: 6rpx solid #f1f1f1;
   text-indent: 0.5rem;
+}
+.mainPage{
+  background-color: white;
+  border-radius: 12rpx;
+  width: 690rpx;
+  margin-right:30rpx;
+  margin-left:30rpx;
 }
 .content{
   flex:1;

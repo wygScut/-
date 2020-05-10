@@ -1,11 +1,11 @@
 {
   "pages": [
-  
     "pages/loading/loading",
-    "pages/index/index",
-    "pages/music/music",
+    "pages/movie/movie",
     "pages/science/science",
-    "pages/movie/movie"
+    "pages/music/music",
+    "pages/main/main"
+ 
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

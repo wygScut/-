@@ -1,6 +1,6 @@
 <scroll-view class="content-info" scroll-y>
 
-
+<view class="mainPage">
 
 <view class="airticle text-df">
 有这样的一些话是不适合对抑郁症患者说的，让我们邀请一位患者说一下她的感受：
@@ -53,4 +53,6 @@
 最合适的一句话应该是：你有什么需要我帮你的吗？</view>
 
 <image src="./img/4.jpg" style="width:750rpx;height:435rpx"></image>
+
+</view>
 </scroll-view>
